@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "datasource",
+  "name": "Grafkaf",
+  "id": "ugwueze-grafkaf-datasource",
+  "metrics": true,
+  "backend": true,
+  "executable": "gpx_grafkaf",
+  "info": {
+    "description": "A grafana kafka streaming plugin",
+    "author": {
+      "name": "ugwueze"
+    },
+    "keywords": ["datasource"],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=10.0.3",
+    "plugins": []
+  }
+}
